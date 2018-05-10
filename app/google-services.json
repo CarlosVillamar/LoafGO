@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "30664516625",
+    "firebase_url": "https://loafgobarscanner-1524005325642.firebaseio.com",
+    "project_id": "loafgobarscanner-1524005325642",
+    "storage_bucket": "loafgobarscanner-1524005325642.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30664516625:android:539be1920d4534f8",
+        "android_client_info": {
+          "package_name": "com.example.carlos.loafgotruckmodule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30664516625-u1j7gjbbuuto7f454dpkpgb0f6n3i92o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfgEqPMJlwot8oOB32WWE4fdNg-PAhUdk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30664516625:android:74582cb1d69880f5",
+        "android_client_info": {
+          "package_name": "com.example.carlos.trucktracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30664516625-u1j7gjbbuuto7f454dpkpgb0f6n3i92o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfgEqPMJlwot8oOB32WWE4fdNg-PAhUdk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
