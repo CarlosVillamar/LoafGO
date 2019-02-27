@@ -5,19 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/mehLayout"
-    tools:context=".BarcodeActivity">
+    tools:context=".ReaderActivity">
 
-    <TextureView
-        android:id="@+id/textureView"
+    <!--<TextureView-->
+    <!--android:id="@+id/textureView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_above="@+id/btnCapture"/>-->
+    <com.camerakit.CameraKitView
+        android:id="@+id/camera"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/btnCapture"/>
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        app:camera_flash="auto"
+        app:camera_facing="back"
+        app:camera_focus="continuous"
+        app:camera_permissions="camera" />
 
 
     <Button
         android:id="@+id/btnCapture"
         android:layout_alignParentBottom="true"
-        android:text="CAPTURE"
+        android:text="@string/capture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

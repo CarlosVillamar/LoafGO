@@ -43,6 +43,7 @@
         <item name="Heroes">Heros</item>
     </string-array>
     <string name="title_activity_reader">ReaderActivity</string>
+    <string name="capture">CAPTURE</string>
 
 
 </resources>
