@@ -41,7 +41,7 @@
         <activity android:name=".RouteActivity"
                   android:label="Select Order for Directions"
                   android:theme="@style/AppTheme.NoActionBar"/>
-            />
+
         <activity
             android:name=".ReaderActivity"
             android:label="@string/title_activity_reader"
